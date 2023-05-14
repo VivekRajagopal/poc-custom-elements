@@ -1,0 +1,9 @@
+<div>
+  <h1>Welcome to {{ title }}!</h1>
+
+  <labelled-button label="Static Button"> Basic Button </labelled-button>
+
+  <labelled-button [label]="label" (clicked)="clicked($event)">
+    Count Up
+  </labelled-button>
+</div>
